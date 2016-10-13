@@ -1,0 +1,39 @@
+<DOCTYPE html>
+	<html lang="en" >
+    <head>
+      <meta charset="utf-8" />
+      <title>Pacman</title>
+
+      <link href="css/main.css" rel="stylesheet" type="text/css" />
+      <link href="css/modal.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="GuppiMW.js"></script>
+      
+      <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+    </head>
+	    <body id="menu">
+        <div style= "scene">
+	    	<h1>Pacman</h1>
+          <a href="#x" class="overlay" id="exit_popup"></a>
+          <div class="popup">
+            <h2>Do you really want to quit?</h2>
+            <a href="#" id="quit" class="myButtonColored">Yes</a>
+            <a href="#" id="back" class="myButton">No</a>
+
+            <a class="close" href="#close"></a>
+          </div>
+	    		<br/><br/><br/><br/><br/>
+	    		<p class="buttonCenter"><a href="#" id="toGame" onclick="parent.toGame();" class="myButtonColored">Start</a></p>
+	    		<br/>
+	    		<p class="buttonCenter"><a href="#" id="toMadeBy" onclick="parent.toMadeBy();" class="myButton">Made by</a>
+	    		</p>
+          <br/><br/><br/><br/>
+            <div class="help">
+              Use arrow keys to move menu selection and enter key to pick the selected choice.
+            </div>
+	    	</div>
+
+			
+	    </body>
+	</html>
